@@ -1,22 +1,35 @@
-# 🔐 Caesar Cipher GUI Tool
+# 🛡️ PixelVault - Image Encryption Tool
 
-A Python-based graphical tool for encrypting and decrypting text using the Caesar Cipher technique. Developed as part of my internship to apply basic cryptographic logic and GUI development skills.
+A beautiful Python GUI application that encrypts and decrypts images using **Swap-based** and **XOR-based (Math)** methods. Built with `tkinter` and `Pillow`.
 
-## 🎯 Features
+> 🎨 Stylish UI • 🔐 Image Security • 🧠 Beginner-Friendly
 
-- Encrypt and decrypt messages using Caesar Cipher.
-- User-friendly interface built with Tkinter.
-- Mode toggle for Encryption/Decryption.
-- Aesthetic gradient UI design.
-- Real-time text updates and copyable output.
+---
 
-## 🛠 Tech Stack
+## ✨ Features
 
-- Python 3
-- Tkinter (GUI Library)
+- 🔐 Encrypt and Decrypt Images  
+- 🔁 Two Modes: `Swap` and `Math (XOR)`  
+- 🖼️ View image preview  
+- 🧠 Easy-to-use GUI built with `tkinter`  
+- 💾 Swap encryption saves key data for perfect decryption  
 
-## 🚀 How to Run
+---
 
-1. Make sure Python is installed:  
+## 🧠 How It Works
+
+### 🔁 Swap Encryption:
+Randomly swaps pixel positions using a numeric key.  
+A `.swp` file is saved to reverse the encryption.
+
+### ✖️ XOR Math Encryption:
+Each pixel value is XORed with the key — simple and effective.  
+Same function used for encryption & decryption.
+
+---
+
+## 🧪 Usage
+
+1. Run the app:
    ```bash
-   python --version
+   python pixel_vault.py
